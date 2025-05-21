@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    position: relative;
+    font-size: large;
+    height: 150px;
+}
+
+.logo1{
+    width: 300px;
+    position: relative;
+    top: -100px;
+    right: 50px;
+}
+
+nav{
+    height: 70px;
+    width: 600px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: right;
+    left: 650px;
+    top: -360px;
+    color: rgb(23, 168, 252);
+
+}
+
+.nav-lista{
+    list-style: none;
+    margin: 20px;
+}
+
+li{
+    border: solid 2px;
+    padding: 6px;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgb(23, 168, 252);
+}
+
+a:hover{
+    color: white;
+    transition: 0.4s;
+}
+
+.logo2{
+    position: relative;
+    margin-left: 60%;
+    transform: translateX(-50%);
+    top: -70px;
+}
+
+
+h1{
+    position: relative;
+    text-align: center;
+    top: -120px;
+    display: grid;
+    
+}
+
+span{
+    color: orange;
+}
+
+
+
+.quadrado{
+    margin: 60px;
+    width: 400px;
+    height: 400px;
+    background-color: black;
+}
+
+.quadrado2{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
