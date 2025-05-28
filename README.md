@@ -1,7 +1,3 @@
-Claro! Aqui está um modelo de **README.md** para o seu projeto de divulgação de sites para academias. Vou estruturar de forma clara e prática para que quem for utilizar ou contribuir para o projeto entenda rapidamente o que ele é, como usá-lo e como contribuir.
-
----
-
 # Projeto de Divulgação de Sites para Academias
 
 Este projeto tem como objetivo ajudar academias a promoverem seus serviços através da criação e divulgação de sites personalizados. Com ele, buscamos facilitar a presença digital de academias e otimizar a comunicação com seus clientes.
@@ -93,7 +89,3 @@ Contribuições são bem-vindas! Siga os passos abaixo para colaborar com o proj
 ## Licença
 
 Este projeto está licenciado sob a **MIT License** - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
-Esse modelo pode ser personalizado conforme a estrutura real do seu projeto e as tecnologias que está utilizando. Se você quiser incluir mais informações, como os requisitos para a execução do projeto ou outras funcionalidades específicas, posso ajustar para você!
