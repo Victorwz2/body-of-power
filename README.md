@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Body and Power
 
 O nosso projeto tem o objetivo de divulgação de academias, com o intuito de ajudar as pessoas para a saúde e na estetica do corpo. O nosso público e tanto pessoas jovens quanto pessoas idosas, para que elas possam melhorar a sua saúde e também melhorar a esetica do corpo.
