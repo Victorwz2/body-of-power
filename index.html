@@ -1,35 +1,127 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TESTE</title>
     <link rel="stylesheet" href="style.css">
 
-    
+
 </head>
+
 <body>
     <header>
         <img class="logo1" src="logo_preta_2-removebg-preview.png" alt="Logo">
         <nav class="nav-lista">
-            <li><a href="academia.html">Academia</li></a>
+            <li><a class="acd" href="academia.html">Academia</li></a>
             <li>Equipe</li>
             <li>exercicios</li>
         </nav>
     </header>
 
-    <div class="logo2">
-        <img src="logo sf.png" alt="Logo">
+    <div class="homer">
+        <div>
+             <h1>O sistema de academia com alta tecnologia,<br> performance e coração</h1>
+             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+             <button class="Demostração" type="button" onclick="mostrarModal()">Demostração</button>
+        </div>
+        <img class="logo2" src="logo sf.png" alt="Logo">
+    </div>
+    <div class="links">
+        <a href="#SBRAEQP">EXPERIÊNCIA</a>
+        <a href="#SBRAEQP">PERFORMACE</a>
+        <a href="#SBRAEQP">SEGURANÇA</a>
+        <a href="#SBRAEQP">PARCERIA</a>
+
+
+
     </div>
 
-    <h1>NOSSOS <span>SERVIÇOS</span></h1>
+    <div id="SBRAEQP">
+    <h1>Sobre a Equipe</h1>
+    <div class="equipe">
+        <p>A nossa Equipe, Body of Power, temos como objetivo ajudar as pessoas para que elas possam ter acesso a uma qualidade de vida melhor, tanto para os jovens quanto para idosos. Por isso a nossa equipe tem como principio a divugação de academias para que pessoas possam acessar e enteder melhor sobre os exercicios.</p>
 
-    <div class="container">
-
-    <div class="quadrado"></div>
-    <div class="quadrado2"></div>
-    <div class="quadrado3"></div>
-
+        <img class="foto-academia" src="foto academia.jpg" alt="Foto da Equipe">
     </div>
+    </div>
+
+
+
+    <button class="Demostração" type="button" onclick="mostrarModal()">Demostração</button>
+
+    <main class="modal">
+        <form action="https://api.staticforms.xyz/submit"  method="post">
+            <h1>Login</h1>
+            
+            <div class="input-box">
+                <input placeholder="Nome" name="name" type="text" required>
+            </div>
+
+            <div class="unir">
+                <select name="estado" required>
+                <option></option>
+                <option value="">Acre</option>
+                <option value="">Alagoas</option>
+                <option value="">Amapá</option>
+                <option value="">Amazonas</option>
+                <option value="">Bahia</option>
+                <option value="">Ceará</option>
+                <option value="">Distrito Federal</option>
+                <option value="">Espírito Santo</option>
+                <option value="">Goiás</option>
+                <option value="">Maranhão</option>
+                <option value="">Mato Grosso</option>
+                <option value="">Mato Grosso do Sul</option>
+                <option value="">Minas Gerais</option>
+                <option value="">Pará</option>
+                <option value="">Paraíba</option>
+                <option value="">Paraná</option>
+                <option value="">Pernambuco</option>
+                <option value="">Piauí</option>
+                <option value="">Rio de Janeiro</option>
+                <option value="">Rio Grande do Norte</option>
+                <option value="">Rio Grande do Sul</option>
+                <option value="">Rondônia</option>
+                <option value="">Roraima</option>
+                <option value="">Santa Catarina</option>
+                <option value="">São Paulo</option>
+                <option value="">Sergipe</option>
+                <option value="">Tocantins</option>
+                </select> 
+                <div class="input-box">
+                <input placeholder="Numero" type="tel" autocomplete="tel">
+                </div>
+            </div>
+
+            <div class="input-box">
+                <input placeholder="Email" name="email" type="email" required>
+            </div>
+
+            <div class="input-box">
+                <input placeholder="Nome do Negócio" name="negócio" type="text" required>
+            </div>
+
+            <div class="input-box">
+                <input placeholder="Nome do Instagram" name="instagram" type="text" required>
+            </div>
+
+            <div class="textarea">
+                <textarea name="message" cols="30" rows="5" placeholder="Digite alguma message ou uma dúvida"></textarea>
+            </div>
+
+            <button type="submit" class="login">Login</button>
+
+            <input type="hidden" name="apiKey" value="sf_f191e6dbhacn3dlnnhj85930">
+            <input type="hidden" name="redirectTo" value="file:///D:/testando%20conhecimentos/index.html">
+        </form>
+
+    </main>
+    <div class="mascara" onclick="esconderModal()"></div>
+
+
+    <script src="./scripts.js"></script>
 </body>
+
 </html>

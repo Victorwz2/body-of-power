@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.container div{
+    width: 400px;
+    height: 400px;
+    margin: 85px;
+    background-image: linear-gradient(to top, white 50%, black 50% );
+}
+
+.quadrado{
+    transition: .35s;
+    cursor: pointer;
+    border: solid;
+}
+
+.quadrado:hover{
+    transform: scale(0.9);
+    width: 500px;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+}
+span{
+    color: orange;
+}
+h3{
+    text-align: center;
+    margin: 20px;
+}
+.partseparada{
+    background-color: darkgrey;
+}
+h2{
+    position: relative;
+    top: 250px;
+    left: 20px;
+
+}
